@@ -1,0 +1,29 @@
+{
+  "hosts": [{
+    "uuid": "gasgasg21g3wqg3g3g3",
+    "hostName": "TnmsPM01",
+    "primaryId": "192.168.11.89",
+    "os": {
+      "version": "2.6.18-238.el5",
+      "name": "Linux",
+      "releaseVersion": "Red Hat Enterprise Linux Server release 5.8 (Tikanga)"
+    },
+    "interfaceList": [{
+        "ipType": "ipv4",
+        "address": "192.168.11.89",
+        "description": "eth0",
+        "name": "eth0",
+        "type": "Ethernet",
+        "netmask": "255.255.255.0"
+      },
+      {
+        "ipType": "ipv4",
+        "address": "192.168.8.110",
+        "description": "eth1",
+        "name": "eth1",
+        "type": "Ethernet",
+        "netmask": "255.255.255.0"
+      }],
+    "iptables": "Chain INPUT (policy ACCEPT)\r\ntarget     prot opt source               destination\r\n\r\nACCEPT     tcp  --  127.0.0.1            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.2            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.3            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.4            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.5            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.6            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.7            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.8            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.9            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.10            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.11            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.12            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.13            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.14            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.15            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.16            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.17            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.18            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.19            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.20            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.21            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.22            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.23            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.24            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp  --  192.1.1.25            0.0.0.0/0           tcp dpt:3306\r\nACCEPT     tcp"
+  }]
+}

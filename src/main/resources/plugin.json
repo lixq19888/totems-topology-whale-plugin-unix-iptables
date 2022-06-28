@@ -1,0 +1,30 @@
+{
+  "vendor": {
+    "vendorId": "linux",
+    "name": "linux",
+    "description": "LinuxNetworks"
+  },
+  "version": {
+    "type": "VENDOR_BUNDLE",
+    "id": "host",
+    "version": "0.1.0"
+  },
+  "controllers": [
+  ],
+  "templates": [
+    {
+      "id": "linux-host",
+      "name": "Linux Host",
+      "pluginId": "linux-host",
+      "controllerIds": []
+    }
+  ],
+  "plugins": [
+    {
+      "pluginId": "linux-host",
+      "pluginType": "DEVICE",
+      "pluginName": "Linux Host",
+      "description": "Linux Host plugin"
+    }
+  ]
+}
